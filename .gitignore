@@ -90,6 +90,3 @@ jspm_packages
 
 # PM2 logs
 pm2-log/
-
-#pasta
-node_modules
