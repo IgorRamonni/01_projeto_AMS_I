@@ -8,7 +8,6 @@ const connection = mysql.createConnection({
   database: 'ts_crud'
 });
 connection.connect();
-// Example route for creating an item
 router.post('/item', (req, res) => {
   const { name, description } = req.body;
   connection.query('INSERT INTO items (name, description) VALUES (?, ?)', [name, description], (err, result) => {
