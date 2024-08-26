@@ -1,14 +1,23 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
     "@types/body-parser": "^1.19.5",
     "@types/express": "^4.17.21",
+=======
+    "@types/mysql": "^2.15.26",
+>>>>>>> ec69659fd139a5509904ae3f558c5db6301423ce
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@types/mysql": "^2.15.26",
     "@types/node": "^22.5.0",
     "body-parser": "^1.20.2",
+=======
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+>>>>>>> ec69659fd139a5509904ae3f558c5db6301423ce
     "express": "^4.19.2",
     "mysql": "^2.18.1"
   }
